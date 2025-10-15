@@ -1,14 +1,14 @@
 export const API_BASE = import.meta.env.VITE_API_BASE || "/api";
-export const ONBOARDING_SURVEY_URL = "https://onboarding.anythingllm.com";
+export const ONBOARDING_SURVEY_URL = "https://onboarding.mind.law";
 
-export const AUTH_USER = "anythingllm_user";
-export const AUTH_TOKEN = "anythingllm_authToken";
-export const AUTH_TIMESTAMP = "anythingllm_authTimestamp";
-export const COMPLETE_QUESTIONNAIRE = "anythingllm_completed_questionnaire";
-export const SEEN_DOC_PIN_ALERT = "anythingllm_pinned_document_alert";
-export const SEEN_WATCH_ALERT = "anythingllm_watched_document_alert";
+export const AUTH_USER = "mindlaw_user";
+export const AUTH_TOKEN = "mindlaw_authToken";
+export const AUTH_TIMESTAMP = "mindlaw_authTimestamp";
+export const COMPLETE_QUESTIONNAIRE = "mindlaw_completed_questionnaire";
+export const SEEN_DOC_PIN_ALERT = "mindlaw_pinned_document_alert";
+export const SEEN_WATCH_ALERT = "mindlaw_watched_document_alert";
 
-export const APPEARANCE_SETTINGS = "anythingllm_appearance_settings";
+export const APPEARANCE_SETTINGS = "mindlaw_appearance_settings";
 
 export const OLLAMA_COMMON_URLS = [
   "http://127.0.0.1:11434",

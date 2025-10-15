@@ -1,10 +1,10 @@
-# anythingllm
+# mindlaw
 
 ![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 1.85.0](https://img.shields.io/badge/AppVersion-1.85.0-informational?style=flat-square)
 
-![AnythingLLM](https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/images/wordmark.png)
+![Mind.Law](https://raw.githubusercontent.com/tal-dagan-cloudi/mind.law-app/master/images/wordmark.png)
 
-[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)
+[Mind.Law](https://github.com/tal-dagan-cloudi/mind.law-app)
 
 The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility, and more.
 
@@ -57,7 +57,7 @@ Notes:
 
 ```yaml
 image:
-  repository: mintplexlabs/anythingllm
+  repository: mindlaw/mindlaw
   tag: "1.9.0"
 
 service:
@@ -78,7 +78,7 @@ persistentVolume:
 Install with:
 
 ```
-helm install my-anythingllm ./anythingllm -f values-secret.yaml
+helm install my-mindlaw ./mindlaw -f values-secret.yaml
 ```
 
 **Best practices & tips**
@@ -103,7 +103,7 @@ helm install my-anythingllm ./anythingllm -f values-secret.yaml
 | envFrom | object | `{}` |  |
 | fullnameOverride | string | `""` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
-| image.repository | string | `"mintplexlabs/anythingllm"` |  |
+| image.repository | string | `"mindlaw/mindlaw"` |  |
 | image.tag | string | `"1.9.0"` |  |
 | imagePullSecrets | list | `[]` |  |
 | ingress.annotations | object | `{}` |  |

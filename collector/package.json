@@ -1,9 +1,9 @@
 {
-  "name": "anything-llm-document-collector",
+  "name": "mind-law-document-collector",
   "version": "1.9.0",
   "description": "Document collector server endpoints",
   "main": "index.js",
-  "author": "Timothy Carambat (Mintplex Labs)",
+  "author": "Mind.Law",
   "license": "MIT",
   "private": false,
   "engines": {

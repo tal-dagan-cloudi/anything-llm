@@ -2038,7 +2038,7 @@
 
 "@mintplex-labs/bree@^9.2.5":
   version "9.2.5"
-  resolved "https://registry.npmjs.org/@mintplex-labs/bree/-/bree-9.2.5.tgz"
+  resolved "https://registry.yarnpkg.com/@mintplex-labs/bree/-/bree-9.2.5.tgz#2e4c4120e1dcc680ee1822a788fa010929275b4c"
   integrity sha512-AdwR1bd3O3bucazeh8Rfdmgauy0CXwqzUKURVwBx+MJkWAUqxiMc6qOaIqg7qcWEqXC4Bm0IzOlDPNLL0EFeRQ==
   dependencies:
     "@breejs/later" "^4.2.0"
@@ -2054,7 +2054,7 @@
 
 "@mintplex-labs/express-ws@^5.0.7":
   version "5.0.7"
-  resolved "https://registry.npmjs.org/@mintplex-labs/express-ws/-/express-ws-5.0.7.tgz"
+  resolved "https://registry.yarnpkg.com/@mintplex-labs/express-ws/-/express-ws-5.0.7.tgz#ef22a849e2c21a8ab93bd68adbe52e278db4d858"
   integrity sha512-cwAvW1aB+/nu8QvkCDnLzav9UOAAlRz042PYHh/bS7z4xpucKP2c002+ZbrW6+flA8qIwoBn3FrSjLCHj7Pi2w==
   dependencies:
     ws "^7.5.10"

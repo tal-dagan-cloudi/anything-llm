@@ -1,9 +1,9 @@
 {
-  "name": "anything-llm-server",
+  "name": "mind-law-server",
   "version": "1.9.0",
   "description": "Server endpoints to process or create content for chatting",
   "main": "index.js",
-  "author": "Timothy Carambat (Mintplex Labs)",
+  "author": "Mind.Law",
   "license": "MIT",
   "private": false,
   "engines": {

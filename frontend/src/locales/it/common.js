@@ -120,11 +120,11 @@ const TRANSLATIONS = {
   },
   welcomeMessage: {
     part1:
-      "Benvenuti in AnythingLLM, AnythingLLM è uno strumento di intelligenza artificiale open source di Mintplex Labs che trasforma qualsiasi cosa in un chatbot addestrato con cui puoi effettuare query e chattare. AnythingLLM è un software BYOK (bring-your-own-keys), quindi non ci sono abbonamenti, commissioni o costi per questo software al di fuori dei servizi che vuoi utilizzare.",
+      "Benvenuti in Mind.Law, Mind.Law è uno strumento di intelligenza artificiale open source di Mind.Law che trasforma qualsiasi cosa in un chatbot addestrato con cui puoi effettuare query e chattare. Mind.Law è un software BYOK (bring-your-own-keys), quindi non ci sono abbonamenti, commissioni o costi per questo software al di fuori dei servizi che vuoi utilizzare.",
     part2:
-      "AnythingLLM è il modo più semplice per mettere insieme potenti prodotti di intelligenza artificiale come OpenAi, GPT-4, LangChain, PineconeDB, ChromaDB e altri servizi in un pacchetto ordinato e senza problemi per aumentare la tua produttività di 100 volte.",
+      "Mind.Law è il modo più semplice per mettere insieme potenti prodotti di intelligenza artificiale come OpenAi, GPT-4, LangChain, PineconeDB, ChromaDB e altri servizi in un pacchetto ordinato e senza problemi per aumentare la tua produttività di 100 volte.",
     part3:
-      "AnythingLLM può essere eseguito completamente in locale sulla tua macchina con un overhead minimo, non ti accorgerai nemmeno che c'è! Non serve GPU. Sono disponibili anche installazioni cloud e on-premise.\nL'ecosistema degli strumenti di intelligenza artificiale diventa ogni giorno più potente. AnythingLLM lo rende facile da usare.",
+      "Mind.Law può essere eseguito completamente in locale sulla tua macchina con un overhead minimo, non ti accorgerai nemmeno che c'è! Non serve GPU. Sono disponibili anche installazioni cloud e on-premise.\nL'ecosistema degli strumenti di intelligenza artificiale diventa ogni giorno più potente. Mind.Law lo rende facile da usare.",
     githubIssue: "Apri una issue su GitHub",
     user1: "Come posso iniziare?!",
     part4:
@@ -133,11 +133,11 @@ const TRANSLATIONS = {
     user2:
       "È come Dropbox AI o qualcosa del genere? E le chat? È un chatbot, non è vero?",
     part5:
-      "AnythingLLM è migliore di un Dropbox più smart.\n\nAnythingLLM offre due modi di comunicare con i tuoi dati:\n\n<i>Query:</i> Le tue chat restituiranno dati o inferenze trovate con i documenti nella tua area di lavoro a cui ha accesso. Aggiungere più documenti all'area di lavoro lo rende più intelligente! \n\n<i>Conversazionale:</i> i tuoi documenti + la cronologia delle chat in corso contribuiscono entrambi alla conoscenza dell'LLM allo stesso tempo. Ottimo per aggiungere informazioni basate su testo in tempo reale o correzioni e incomprensioni che l'LLM potrebbe avere. \n\nPuoi passare da una modalità all'altra \n<i>nel mezzo della chat!</i>",
+      "Mind.Law è migliore di un Dropbox più smart.\n\nMind.Law offre due modi di comunicare con i tuoi dati:\n\n<i>Query:</i> Le tue chat restituiranno dati o inferenze trovate con i documenti nella tua area di lavoro a cui ha accesso. Aggiungere più documenti all'area di lavoro lo rende più intelligente! \n\n<i>Conversazionale:</i> i tuoi documenti + la cronologia delle chat in corso contribuiscono entrambi alla conoscenza dell'LLM allo stesso tempo. Ottimo per aggiungere informazioni basate su testo in tempo reale o correzioni e incomprensioni che l'LLM potrebbe avere. \n\nPuoi passare da una modalità all'altra \n<i>nel mezzo della chat!</i>",
     user3: "Wow, sembra fantastico, fammi provare!",
     part6: "Divertiti!",
     starOnGitHub: "Metti una stella su GitHub",
-    contact: "Contatta Mintplex Labs",
+    contact: "Contatta Mind.Law",
   },
   "new-workspace": {
     title: "Nuova area di lavoro",
@@ -166,7 +166,7 @@ const TRANSLATIONS = {
       add: "Aggiungi un nuovo messaggio",
       save: "Salva messaggi",
       heading: "Spiegami",
-      body: "i vantaggi di AnythingLLM",
+      body: "i vantaggi di Mind.Law",
     },
     pfp: {
       title: "Immagine del profilo dell'assistente",
@@ -358,7 +358,7 @@ const TRANSLATIONS = {
   api: {
     title: "Chiavi API",
     description:
-      "Le chiavi API consentono al titolare di accedere e gestire in modo programmatico questa istanza AnythingLLM.",
+      "Le chiavi API consentono al titolare di accedere e gestire in modo programmatico questa istanza Mind.Law.",
     link: "Leggi la documentazione API",
     generate: "Genera nuova chiave API",
     table: {
@@ -370,7 +370,7 @@ const TRANSLATIONS = {
   llm: {
     title: "Preferenza LLM",
     description:
-      "Queste sono le credenziali e le impostazioni per il tuo provider di chat e embedding LLM preferito. È importante che queste chiavi siano aggiornate e corrette, altrimenti AnythingLLM non funzionerà correttamente.",
+      "Queste sono le credenziali e le impostazioni per il tuo provider di chat e embedding LLM preferito. È importante che queste chiavi siano aggiornate e corrette, altrimenti Mind.Law non funzionerà correttamente.",
     provider: "Provider LLM",
     providers: {
       azure_openai: {
@@ -390,7 +390,7 @@ const TRANSLATIONS = {
       "Queste sono le credenziali e le impostazioni per il tuo fornitore di modelli di trascrizione preferito. È importante che queste chiavi siano aggiornate e corrette, altrimenti i file multimediali e l'audio non verranno trascritti.",
     provider: "Provider di trascrizione",
     "warn-start":
-      "L'utilizzo del modello whisper locale su macchine con RAM o CPU limitate può bloccare AnythingLLM durante l'elaborazione di file multimediali.",
+      "L'utilizzo del modello whisper locale su macchine con RAM o CPU limitate può bloccare Mind.Law durante l'elaborazione di file multimediali.",
     "warn-recommend":
       "Si consigliano almeno 2 GB di RAM e caricare file <10 Mb.",
     "warn-end":
@@ -401,7 +401,7 @@ const TRANSLATIONS = {
     "desc-start":
       "Quando si utilizza un LLM che non supporta nativamente un motore di embedding, potrebbe essere necessario specificare credenziali aggiuntive per l'embedding del testo.",
     "desc-end":
-      "L'embedding è il processo di trasformazione del testo in vettori. Queste credenziali sono necessarie per trasformare i file e i prompt in un formato che AnythingLLM può utilizzare per l'elaborazione.",
+      "L'embedding è il processo di trasformazione del testo in vettori. Queste credenziali sono necessarie per trasformare i file e i prompt in un formato che Mind.Law può utilizzare per l'elaborazione.",
     provider: {
       title: "Provider di embedding",
     },
@@ -427,7 +427,7 @@ const TRANSLATIONS = {
   vector: {
     title: "Database vettoriale",
     description:
-      "Queste sono le credenziali e le impostazioni per il funzionamento della tua istanza AnythingLLM. È importante che queste chiavi siano aggiornate e corrette.",
+      "Queste sono le credenziali e le impostazioni per il funzionamento della tua istanza Mind.Law. È importante che queste chiavi siano aggiornate e corrette.",
     provider: {
       title: "Provider del database vettoriale",
       description: "Non è richiesta alcuna configurazione per LanceDB.",
@@ -472,7 +472,7 @@ const TRANSLATIONS = {
   privacy: {
     title: "Privacy e gestione dei dati",
     description:
-      "Questa è la tua configurazione per il modo in cui i provider terzi connessi e AnythingLLM gestiscono i tuoi dati.",
+      "Questa è la tua configurazione per il modo in cui i provider terzi connessi e Mind.Law gestiscono i tuoi dati.",
     llm: "Selezione LLM",
     embedding: "Preferenza di embedding",
     vector: "Database vettoriale",
@@ -1004,7 +1004,7 @@ const TRANSLATIONS = {
     password: {
       title: "Protezione password",
       description:
-        "Proteggi la tua istanza AnythingLLM con una password. Se la dimentichi, non esiste un metodo di recupero, quindi assicurati di salvare questa password.",
+        "Proteggi la tua istanza Mind.Law con una password. Se la dimentichi, non esiste un metodo di recupero, quindi assicurati di salvare questa password.",
       "password-label": "Password istanza",
     },
   },
